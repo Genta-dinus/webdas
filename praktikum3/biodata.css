@@ -1,0 +1,39 @@
+.content{
+	margin : 100px auto;
+	height: 1400px ;
+	width: 900px ;
+	background-color: #F3F1EC;
+}
+.garis1{
+	border-top: 2px solid black;
+}
+.h2{
+	text-align: center;
+}
+
+.body{
+	background-color: #F3F1EC;
+}
+
+.table{
+	padding-left: 40px ;
+	float: right ;
+	margin-right: 180px ;
+	margin-top: 10px;
+} 
+.table    td{
+	font-weight: bold ; 
+	margin : 50px;
+	padding-bottom: 20px ;
+	padding-top: 10px ;
+	margin-top: 5px ;
+}
+.gambar{
+	
+	margin-left: 50px;
+	float : left ;
+	margin-bottom:  0px ;
+	margin-top: 40px ;
+
+	
+}
