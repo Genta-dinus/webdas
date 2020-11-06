@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel = "stylesheet" href="register.css">
+</head>
+<style>
+	body{
+		background : black ;
+		margin : 0px;
+	}
+</style>
+<body>
+	<div class="header">
+		<h1>Register</h1>
+	</div>
+	<fieldset>
+		<p>
+			<label class="nama">Nama<span>: 	 </label>
+			<input type="text" name="nama" placeholder="Nama lengkap">
+		</p>
+		<p>
+			<label class="username">Username<span>:</span> </label>
+			<td></td>
+			<input type="text" class="btn" name="username" placeholder="Username">
+		</p>
+		<p>
+			<label class="email">Email<span>:
+			<input type="text" class="btn" name="email" placeholder="Email">
+		</p>
+		<p>
+			<label class="password">Password<span>: </label>
+			<input type="password" class="btn" name="password" placeholder="Password">
+		</p>
+		<p>
+			<label class="kelamin">Jenis kelamin<span> : </label>
+			<label style="padding: 10px 10px"><input type="checkbox"  class="cek"name="kelamin" value="Laki-Laki">Laki-Laki</label>
+			<label><input type="checkbox" name="kelamin" class = "cek" value="Perempuan">Perempuan</label>
+		</p>
+		<p>
+			<label class="agama">Agama <span>: </label>
+			<select name="agama">
+				<option value="Islam">Islam</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+			</select>
+		</p>
+		<div class="submit">
+			<a href="login.html"><input type="submit" name="submit" value="Send">
+		</div>
+
+
+		</fieldset>
+	</form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+p {
+	color: white ;
+	font-size: 35px ;
+	padding-bottom: 20px ;
+	margin-top: 20px ; 
+}
+
+.header h1{
+	color: white ;
+	font-size: 50px ;
+	margin : 40px ;
+}
+
+fieldset {
+	margin-top: 40px ;
+	
+}
+.nama span{
+	margin-left : 201px;
+	padding-bottom: 20px ;
+	padding-top: 10px ;
+	margin-top: 5px ;
+}
+
+.email span{
+	margin-left : 200px;
+	padding-bottom: 20px ;
+	padding-top: 10px ;
+	margin-top: 5px ;
+}
+.username span{
+	margin-left: 143px;
+	padding-bottom: 20px ;
+	padding-top: 10px ;
+	margin-top: 5px ;
+}
+.subjek span{
+	margin-left: 178px;
+	padding-bottom: 20px ;
+	padding-top: 10px ;
+	margin-top: 5px ;
+}
+.nama {
+	margin-left : 40px ;
+}
+.password{
+	margin-left : 40px;
+}
+.email{
+	margin-left : 40px;
+}
+.subjek{
+	margin-left: 40px;
+}
+.submit{
+	margin-left: 40px ;
+	margin-bottom: 40px ;
+
+}
