@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Belajar AJAX dengan JQuery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css"
+</head>
+<body background="img/bunga.jpg">
+	<form style="width: 1000px"class="posisi";>
+	<div id="template">
+		<fieldset class="h">
+
+		<div id="menu">
+		<nav>
+			<a href="ajax-1.html">ajax-1</a> |
+			<a href="ajax-2.html">ajax-2</a> |
+ 			<a href="ajax-3.html">ajax-3</a> |
+			<a href="ajax-jquery.html">jquery</a> |
+			<a href="ajax-jquery-2.html">jquery-2</a> |
+			<a href="ajax-fetch.html">fetch</a> |
+			<a href="ajax-axios.html">axios</a> |
+			<a href="json-lat/latihan-json.html">latihan-json</a> |
+ 			<a href="json-lat/latihan-json2.html">latihan-json2</a> |
+			<a href="json-lat/latihan-json-jquery.html">latihan-jquery</a> |
+			<a href="json-lat/latihan-json-jquery2.html">latihan-jquery2</a> |
+	</nav>
+	</div>
+
+<body>
+	<h1>Load Data</h1>
+	<img id="avatar" src="" width="100" height="100">
+	<br>
+	<h3 id="name"></h3>
+	<p id="location"></p>
+
+ 	<script>
+		var url = "http://localhost/ajax_files/kode.json";
+		$.get(url, function(data, status){
+			$("#avatar").attr("src", data.avatar_url);
+			$("#name").text(data.name);
+			$("#location").text(data.location);
+		});
+	</script>
+	
+</body>
+</html>

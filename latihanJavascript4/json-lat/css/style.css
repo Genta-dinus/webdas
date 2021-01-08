@@ -1,0 +1,22 @@
+@charset "utf-8";
+ .h{
+    border: 8px groove #7bc141;
+	background: #c3dd4e;
+ }
+ .posisi{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+ }
+
+#menu{
+	height: 30px;		
+	width: 1050px;
+	background-color:#f8dca4;
+}
