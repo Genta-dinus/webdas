@@ -1,0 +1,138 @@
+body {
+	margin: 0 ;
+	font-family: sans-serif ;
+	background-color: #F3F1EC ;
+}
+.header {
+	 margin: 20px ;
+	 color: black ;
+	 background: green ;
+	 height: 120px ;
+}
+.header h1 {
+	font-size: 	40px ;
+	margin-left: 50px ;
+	color: 	white ;
+}
+.logo {
+	float: left ; 
+}
+.navbar {
+	float: right ;
+}
+.navbar ul{
+	list-style: none ;
+	font-size: 30px ;
+}
+.navbar ul li {
+	display: inline;
+	margin : 10px;
+}
+.navbar ul li a{
+	text-decoration:none ;
+	color: white ;
+}
+.navbar ul li a {
+	border-bottom: 4px solid green;
+	margin-right: 40px ;
+}
+.navbar ul li a:hover {
+	border-bottom: 2px solid white;
+}
+.image {
+	width: 90% ;
+	display: grid ;
+	grid-template-columns: 1fr 1fr 1fr ;
+	margin: auto ;	
+
+}
+.image .gambar1 img{
+	width:  300px ;
+	margin-top : 95px;
+}
+.image .gambar2 img{
+	width:  250px ;
+	margin-top : 10px;
+}
+.image .gambar3 img{
+	width:  200px ;
+	margin-top : 1px;
+}
+.gambar1 {
+	border: 1px solid black ;
+	margin: 10px ;
+	text-align: center ;
+}
+.gambar2 {
+	border: 1px solid black ;
+	margin: 10px ;
+	text-align: center ;
+}
+
+.gambar3 {
+	border: 1px solid black ;
+	margin: 10px ;
+	text-align: center ;
+}
+.gambar1 a {
+	padding : 10px;
+	color: black ;
+	text-decoration: none ;
+	font-size: 30px ;
+	background: green ;
+	border-radius: 	40px ;
+}
+.gambar2 a {
+	padding : 10px;
+	color: black ;
+	text-decoration: none ;
+	font-size: 30px ;
+	background: green ;
+	border-radius: 	40px ;
+}
+.gambar3 a {
+	padding : 10px;
+	color: black ;
+	text-decoration: none ;
+	font-size: 30px ;
+	background: green ;
+	border-radius: 	40px ;
+}
+.gambar1 p {
+	color: black ;
+	font-size: 	20px ;
+}
+.gambar1 h1 {
+	color: black ;
+	font-size: 30px ;
+}
+.gambar2 p {
+	color: black ;
+	font-size: 	20px ;
+}
+.gambar2 h1 {
+	color: black ;
+	font-size: 30px ;
+}
+.gambar3 p {
+	color: black ;
+	font-size: 	20px ;
+}
+.gambar3 h1 {
+	color: black ;
+	font-size: 30px ;
+}
+.footer {
+	text-align: center; 
+	margin: 20px; color: white; 
+	background: green;
+	height: 100px;
+}
+.footer p{
+	padding-top:25px;
+}
+.footer a{
+	text-decoration: none; 
+	color: white;
+	font-size: 	25px ;
+}

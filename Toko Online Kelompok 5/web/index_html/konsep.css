@@ -1,0 +1,61 @@
+.header {
+	background : green ;
+	height: 100px ;
+}
+
+.judul h1{
+	font-size: 50px ;
+	padding-top: 22px ;
+	margin-left: 40px ;
+	color: white ;
+}
+.kontent {
+	background: white ;
+}
+.kontent p{
+	font-size: 30px ;
+	margin-left: 30px;
+}
+.navbar {
+	float: right ; ;	
+}
+.navbar ul{
+	list-style: none ;
+	font-size: 30px ;
+}
+.navbar ul li {
+	display: inline;
+	margin : 10px;
+}
+.navbar ul li a{
+	text-decoration:none ;
+	color: white ;
+}
+.navbar ul li a {
+	border-bottom: 4px solid green;
+	margin-right: 40px ;
+}
+.navbar ul li a:hover {
+	border-bottom: 2px solid white;
+}
+.gambar h2{
+	font-size: 30px ;
+	margin-left: 30px;
+}
+.gambar img{
+	margin-left: 30px;
+}
+.footer {
+	text-align: center; 
+	margin: 20px; color: white; 
+	background: green;
+	height: 100px;
+}
+.footer p{
+	padding-top:25px;
+}
+.footer a{
+	text-decoration: none; 
+	color: white;
+	font-size: 	30px ;
+}
